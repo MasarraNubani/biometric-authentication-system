@@ -13,23 +13,6 @@ This project implements a biometric authentication system using Java, where user
 - **Authentication**: When a user tries to authenticate, they provide their feature values, and the system compares these to their template using distance metrics.
 - **Thresholds**: The system uses a threshold to decide if the authentication is successful or failed. Different thresholds can be experimented with, and the system calculates **FMR** and **FNMR**.
 
-## How to Run:
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/biometric-authentication-system-java.git
-    cd biometric-authentication-system-java
-    ```
-
-2. Compile the Java code:
-    ```bash
-    javac Main.java
-    ```
-
-3. Run the program:
-    ```bash
-    java Main
-    ```
-
 ## Input:
 The program will ask for values for 10 biometric features (such as Eye Width, Nose Length, etc.) for the user trying to authenticate.
 
